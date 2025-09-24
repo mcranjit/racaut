@@ -43,7 +43,7 @@ const Hero: React.FC<HeroProps> = ({ onJoinClick }) => {
       subtitle: "Local Action",
       description:
         "Connect with Rotaractors worldwide while addressing local community needs and challenges.",
-      video: "/video/club_video.mp4",
+      video: "video/club_video.mp4",
       gradient: "from-green-600 via-teal-600 to-blue-600",
     }
   ];
