@@ -27,7 +27,7 @@ const Hero: React.FC<HeroProps> = ({ onJoinClick }) => {
       subtitle: "Transforming Communities",
       description:
         "Join the Rotaract Club of Anna University, Trichy - where young leaders come together to create positive change through service, fellowship, and leadership development.",
-      video: "/video/club_video.mp4",
+      video: "video/club_video.mp4",
       gradient: "from-blue-600 via-blue-700 to-red-600",
     },
     {
