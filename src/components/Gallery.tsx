@@ -21,13 +21,16 @@ const Gallery: React.FC = () => {
   const photos = [
     { id: 1, src: 'https://i.ibb.co/ns3t1Nzv/1.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 2, src: 'https://i.ibb.co/NM0SnLL/2.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
-    { id: 3, src: 'https://i.ibb.co/5xkshWtw/3ef9ab61-6c4a-45d8-b3bd-1d9743aed39d.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
+    { id: 3, src: 'https://i.ibb.co/ynXyYwMg/d39fe88f-fb2b-4c4e-bd61-38f6fb826ca8.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 4, src: 'https://i.ibb.co/j9RsJNsR/4.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 5, src: 'https://i.ibb.co/6JRkjfTd/6.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 6, src: 'https://i.ibb.co/4ZhNV7PQ/DSC-8155.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 7, src: 'https://i.ibb.co/chqc7mGB/8.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 8, src: 'https://i.ibb.co/G35tn4Qw/13.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 9, src: 'https://i.ibb.co/QFJ9pqCC/Dis-Assembly.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
+    { id: 9, src: 'https://i.ibb.co/SXB7Hnv7/c8452fe1-6f05-4c23-82e8-471af8a5e66c.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
+    { id: 9, src: 'https://i.ibb.co/RGZ2rg2Y/5b5bfb98-ab5d-45b4-814f-903ae343cccb.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
+    { id: 9, src: 'https://i.ibb.co/S4zdZv42/e94367f7-899c-4208-afe5-e0153cb8e433.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 10, src: 'https://i.ibb.co/8LZGQTKg/860d865d-e492-46bd-bf19-dd0dcbf99217.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [''], location: '' }
   ];
 
