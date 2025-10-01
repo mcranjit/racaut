@@ -17,7 +17,7 @@ const Team: React.FC = () => {
     {
       name: "Saiganesh S",
       position: "President",
-      image: "img/team/sai.jpeg",
+      image: "https://i.ibb.co/G3HgJtqV/sai.jpg",
       bio: "As the President of the Rotaract Club of Anna University, Trichy, Saiganesh S is a dynamic leader and a final-year Electronics & Communication Engineering student. With a strong passion for community service, he has spearheaded numerous initiatives fostering innovation, collaboration, and societal impact while emphasizing leadership development among peers.",
       email: "president@rotaractau.org",
       linkedin: "#",
@@ -25,7 +25,7 @@ const Team: React.FC = () => {
     {
       name: "Alexander F",
       position: "Secretary",
-      image: "img/team/alex.jpeg",
+      image: "https://i.ibb.co/cKjSznJ2/alex.jpg",
       bio: "Alexander F, a final-year Electrical and Electronics Engineering student at Anna University, Trichy, is the Secretary of the Rotaract Club. Known for his meticulous documentation and exceptional communication skills, he ensures seamless coordination and effective record-keeping, playing a pivotal role in the club's operations and success.",
       email: "secretary@rotaractau.org",
       linkedin: "#",
@@ -33,15 +33,15 @@ const Team: React.FC = () => {
     {
       name: "Ranjith M C",
       position: "Treasurer",
-      image: "img/team/photo.jpg",
+      image: "https://i.ibb.co/TD7WSCkZ/Ranjith-Photo.jpg",
       bio: "Ranjith M C, a final-year Information Technology student at Anna University, Trichy, serves as the Treasurer of the Rotaract Club. With exceptional financial management skills and a commitment to transparency, he efficiently oversees the club's finances. Passionate about community service, Ranjith actively contributes to impactful projects that uplift and empower local communities.",
-      email: "cmr241ranjith@gmail.com",
+      email: "cmr2401ranjith@gmail.com",
       linkedin: "#",
     },
     {
       name: "Infant Jerome I",
       position: "Club Trainer",
-      image: "img/team/jerome.jpeg",
+      image: "https://i.ibb.co/CsPbWYZN/jerome.jpg",
       bio: "Infant Jerome I, a final-year Electronics & Communication Engineering student, serves as the Club Trainer for the Rotaract Club of Anna University, Trichy. Renowned for his ability to inspire and mentor, he is dedicated to equipping members with essential skills in leadership, teamwork, and personal development, fostering a culture of continuous learning and excellence.",
       email: "trainer@rotaractau.org",
       linkedin: "#",
@@ -49,9 +49,9 @@ const Team: React.FC = () => {
     {
       name: "Anbalagan",
       position: "Vice President",
-      image: "img/team/anbalagan.jpeg",
+      image: "https://i.ibb.co/PGj0RPzt/anbalagan.jpg",
       bio: "Anbalagan, the Vice President of the Rotaract Club of Anna University, Trichy, is a dynamic leader known for his strategic vision and commitment to service. Dedicated to fostering collaboration and driving impactful initiatives, he plays a key role in guiding the club’s activities, empowering members, and promoting a culture of unity, innovation, and excellence.",
-      email: "trainer@rotaractau.org",
+      email: "vp@rotaractau.org",
       linkedin: "#",
     },
   ];
