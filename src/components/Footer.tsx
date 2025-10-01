@@ -131,8 +131,8 @@ const Footer: React.FC = () => {
               {/* Meeting Times */}
               <div className="mt-6 p-4 bg-gray-800 rounded-lg">
                 <h5 className="font-semibold text-white mb-2">Meeting Times</h5>
-                <p className="text-gray-300 text-sm">Every 2nd Saturday</p>
-                <p className="text-gray-400 text-xs">6:00 PM - 8:00 PM</p>
+                <p className="text-gray-300 text-sm">Every Wednesday</p>
+                <p className="text-gray-400 text-xs">4:30 PM - 6:00 PM</p>
               </div>
             </div>
           </div>
@@ -183,7 +183,10 @@ const Footer: React.FC = () => {
           </div>
           <div className="mt-4 text-center">
             <p className="text-gray-500 text-xs">
-              Rotaract is a program of Rotary International | District 3000 | 
+              <a href="https://www.rotaract3000.in/" className="text-blue-400 hover:text-blue-300 ml-1">Rotaract District 3000</a>
+            </p>
+            <p className="text-gray-500 text-xs">
+              Rotaract is a program of Rotary International 
               <a href="https://rotary.org" className="text-blue-400 hover:text-blue-300 ml-1">Learn more about Rotary</a>
             </p>
           </div>
