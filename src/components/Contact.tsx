@@ -41,7 +41,7 @@ const Contact: React.FC = () => {
     setTimeout(() => {
       const responses = [
         "I'd be happy to help you with that! For membership inquiries, please fill out our online form or contact our membership team.",
-        "That's a great question! Our club meets every 2nd Saturday at 6:00 PM. Would you like more details about our upcoming events?",
+        "That's a great question! Our club meets every Wednesday at 4:30 PM. Would you like more details about our upcoming events?",
         "We have several ongoing projects including digital literacy programs and environmental conservation. Which area interests you most?",
         "Our leadership development programs are designed to enhance your skills through hands-on experience. Would you like to know about our next workshop?"
       ];
