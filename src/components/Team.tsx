@@ -56,10 +56,31 @@ const Team: React.FC = () => {
     },
   ];
 
-  // Posters only
-  const moreMembers = Array.from({ length: 23 }, (_, i) => ({
-    image: `img/team/${i + 1}.png`,
-  }));
+  const moreMembers = [
+      { image: "https://i.ibb.co/MxFGrKg2/2.png" },
+      { image: "https://i.ibb.co/0R5DyG0W/3.png" },
+      { image: "https://i.ibb.co/DfbkNCDB/Green-and-White-Birthday-Greetings-Instagram-Post.jpg" },
+      { image: "https://i.ibb.co/jPKZmKg6/5.png" },
+      { image: "https://i.ibb.co/M5t7nZzG/6.png" },
+      { image: "https://i.ibb.co/7NjghH6S/7.png" },
+      { image: "https://i.ibb.co/Lz74bfKw/8.png" },
+      { image: "https://i.ibb.co/B7w6vYR/16.png" },
+      { image: "https://i.ibb.co/DHvGFZ6m/17.png" },
+      { image: "https://i.ibb.co/qv36Zx5/20.png" },
+      { image: "https://i.ibb.co/SD7wwHfD/21.png" },
+      { image: "https://i.ibb.co/LDK9MxTf/19.png" },
+      { image: "https://i.ibb.co/vCjsqHyN/18.png" },
+      { image: "https://i.ibb.co/Pv9WKzdd/1e91754e-5f94-4aae-982e-3f432154307e.jpg" },
+      { image: "https://i.ibb.co/sp0tSY6T/14.png" },
+      { image: "https://i.ibb.co/PsRn5RcZ/12.png" },
+      { image: "https://i.ibb.co/KxGmCNC4/11.png" },
+      { image: "https://i.ibb.co/1J96BWmm/13.png" },
+      { image: "https://i.ibb.co/HfYCZKH0/10.png" },
+      { image: "https://i.ibb.co/gFmLhhkn/22.png" },
+      { image: "https://i.ibb.co/ksp2hRrB/37255e51-1d6c-4b92-82e2-93482f69d168.jpg" },
+      { image: "https://i.ibb.co/sdy5H9B3/1.png" },
+      { image: "https://i.ibb.co/FLLXfRk0/23.png" },
+    ];
 
   const pastLeaders = [
     { year: "2013–14", president: "Rtr. Arun Cumar", secretary: "Rtr. Raj Kumar" },
