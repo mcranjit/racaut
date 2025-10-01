@@ -292,13 +292,13 @@ const Contact: React.FC = () => {
   <h4 className="text-xl font-bold text-gray-800 mb-6">Our Sponsors</h4>
   <div className="grid grid-cols-5 gap-4">
     {[
-      { name: "Sponsor 1", logo: "/img/sponsors/csir.jpg" },
-      { name: "Sponsor 2", logo: "/img/sponsors/igcar.jpg" },
-      { name: "Sponsor 3", logo: "/img/sponsors/jigyasa.png" },
-      { name: "Sponsor 4", logo: "/img/sponsors/kolam.jpg" },
-      { name: "Sponsor 5", logo: "/img/sponsors/vibha.jpg" },
-      { name: "Sponsor 6", logo: "/img/sponsors/arivial_sangam.jpg" },
-      { name: "Sponsor 7", logo: "/img/sponsors/vhnsn.jpg" }
+      { name: "Sponsor 1", logo: "https://i.ibb.co/bjKNtbTN/csir.jpg" },
+      { name: "Sponsor 2", logo: "https://i.ibb.co/3YSDyqb5/igcar.jpg" },
+      { name: "Sponsor 3", logo: "https://i.ibb.co/7t6ddXnH/jigyasa.png" },
+      { name: "Sponsor 4", logo: "https://i.ibb.co/5xzSbf8t/kolam.jpg" },
+      { name: "Sponsor 5", logo: "https://i.ibb.co/JF2nC2pp/vibha.jpg" },
+      { name: "Sponsor 6", logo: "https://i.ibb.co/Ps5PBG4c/arivial-sangam.jpg" },
+      { name: "Sponsor 7", logo: "https://i.ibb.co/1GpvMvYD/vhnsn.jpg" }
     ].map((sponsor, idx) => (
       <div
         key={idx}
