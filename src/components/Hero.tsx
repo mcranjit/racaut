@@ -27,7 +27,7 @@ const Hero: React.FC<HeroProps> = ({ onJoinClick }) => {
       subtitle: "Transforming Communities",
       description:
         "Join the Rotaract Club of Anna University, Trichy - where young leaders come together to create positive change through service, fellowship, and leadership development.",
-      video: "video/club_video.mp4",
+      video: "https://drive.google.com/file/d/1zTRNPTrQbLKZ6WB3YwpBIbkeW420-u-t/view?usp=drive_link",
       gradient: "from-blue-600 via-blue-700 to-red-600",
     },
     {
@@ -35,7 +35,7 @@ const Hero: React.FC<HeroProps> = ({ onJoinClick }) => {
       subtitle: "Creating Impact",
       description:
         "Develop essential leadership skills while making a meaningful difference in your community and beyond.",
-      video: "/video/club_video.mp4",
+      video: "https://drive.google.com/file/d/1zTRNPTrQbLKZ6WB3YwpBIbkeW420-u-t/view?usp=drive_link",
       gradient: "from-purple-600 via-pink-600 to-red-600",
     },
     {
@@ -43,7 +43,7 @@ const Hero: React.FC<HeroProps> = ({ onJoinClick }) => {
       subtitle: "Local Action",
       description:
         "Connect with Rotaractors worldwide while addressing local community needs and challenges.",
-      video: "video/club_video.mp4",
+      video: "https://drive.google.com/file/d/1zTRNPTrQbLKZ6WB3YwpBIbkeW420-u-t/view?usp=drive_link",
       gradient: "from-green-600 via-teal-600 to-blue-600",
     }
   ];
