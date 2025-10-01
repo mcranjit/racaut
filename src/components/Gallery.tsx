@@ -10,7 +10,7 @@ const Gallery: React.FC = () => {
   const [imageStats, setImageStats] = useState<{ [key: number]: { views: number; likes: number } }>({});
 
   const categories = [
-    { id: 'all', name: 'All Photos', icon: '📸', count: 14+ },
+    { id: 'all', name: 'All Photos', icon: '📸', count: 15 },
     { id: 'community-service', name: 'Community Service', icon: '❤️', count: 4 },
     { id: 'events', name: 'Events', icon: '🎉', count: 3 },
     { id: 'meetings', name: 'Meetings', icon: '🤝', count: 2 },
@@ -21,7 +21,7 @@ const Gallery: React.FC = () => {
   const photos = [
     { id: 1, src: 'https://i.ibb.co/ns3t1Nzv/1.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 2, src: 'https://i.ibb.co/NM0SnLL/2.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
-    { id: 2, src: 'https://i.ibb.co/JF3LX3Bb/6c9e1be8-9006-437a-b70b-9eaf76b6f8b7.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
+    { id: 15, src: 'https://i.ibb.co/JF3LX3Bb/6c9e1be8-9006-437a-b70b-9eaf76b6f8b7.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 3, src: 'https://i.ibb.co/ynXyYwMg/d39fe88f-fb2b-4c4e-bd61-38f6fb826ca8.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 4, src: 'https://i.ibb.co/j9RsJNsR/4.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 5, src: 'https://i.ibb.co/6JRkjfTd/6.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
@@ -33,7 +33,7 @@ const Gallery: React.FC = () => {
     { id: 11, src: 'https://i.ibb.co/RGZ2rg2Y/5b5bfb98-ab5d-45b4-814f-903ae343cccb.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 12, src: 'https://i.ibb.co/S4zdZv42/e94367f7-899c-4208-afe5-e0153cb8e433.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 13, src: 'ttps://i.ibb.co/8LZGQTKg/860d865d-e492-46bd-bf19-dd0dcbf99217.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [''], location: '' },
-    { id: 13, src: 'https://i.ibb.co/RT2SBBzZ/0d1f6121-ae11-4f8c-97f5-97fc5d9c3682.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [''], location: '' }
+    { id: 14, src: 'https://i.ibb.co/RT2SBBzZ/0d1f6121-ae11-4f8c-97f5-97fc5d9c3682.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [''], location: '' }
   ];
 
   const filteredPhotos = photos.filter(photo => {
