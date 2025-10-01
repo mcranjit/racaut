@@ -19,7 +19,7 @@ const Gallery: React.FC = () => {
   ];
 
   const photos = [
-    { id: 1, src: 'img/gallery/1.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
+    { id: 1, src: 'https://i.ibb.co/ns3t1Nzv/1.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 2, src: 'img/gallery/2.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 3, src: 'img/gallery/3.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 4, src: 'img/gallery/4.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
