@@ -92,7 +92,7 @@ function App() {
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 rounded-full blur-3xl opacity-70 animate-pulse"></div>
             <div className="relative z-10 w-20 h-20 bg-white/20 rounded-full flex items-center justify-center shadow-lg">
               <img
-                src="img/logo1.png"
+                src="https://i.ibb.co/qL9gBkK7/logo1.png"
                 alt="Logo"
                 className="w-16 h-16 animate-spin-slow"
               />
