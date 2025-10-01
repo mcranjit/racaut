@@ -15,11 +15,11 @@ const Blog: React.FC = () => {
       likes: 24,
       comments: 8
     },
-    { id: 2, image: "img/news/news1.jpg" },
-    { id: 3, image: "img/news/news2.jpg" },
-    { id: 4, image: "img/news/news3.jpg" },
-    { id: 5, image: "img/news/news4.jpg" },
-    { id: 6, image: "img/news/news5.jpg" }
+    { id: 2, image: "https://i.ibb.co/zVwKFnq8/news1.jpg" },
+    { id: 3, image: "https://i.ibb.co/TD0wZJSK/news2.jpg" },
+    { id: 4, image: "https://i.ibb.co/DPrZJNv7/news3.jpg" },
+    { id: 5, image: "https://i.ibb.co/nMHvz4j1/news4.jpg" },
+    { id: 6, image: "https://i.ibb.co/7t04wytM/news5.jpg" }
   ];
 
   const categories = [
