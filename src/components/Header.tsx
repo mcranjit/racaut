@@ -66,7 +66,7 @@ const Header: React.FC<HeaderProps> = ({ currentSection, onSectionChange }) => {
           <div className="flex items-center space-x-3 group">
             <div className="w-12 h-12">
               <img
-                src="img/logo1.png"
+                src="https://i.ibb.co/qL9gBkK7/logo1.png"
                 alt="Logo"
                 className="w-12 h-12 object-contain"
               />
