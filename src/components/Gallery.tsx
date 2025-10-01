@@ -21,6 +21,7 @@ const Gallery: React.FC = () => {
   const photos = [
     { id: 1, src: 'https://i.ibb.co/ns3t1Nzv/1.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 2, src: 'https://i.ibb.co/NM0SnLL/2.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
+    { id: 2, src: 'https://i.ibb.co/JF3LX3Bb/6c9e1be8-9006-437a-b70b-9eaf76b6f8b7.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 3, src: 'https://i.ibb.co/ynXyYwMg/d39fe88f-fb2b-4c4e-bd61-38f6fb826ca8.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 4, src: 'https://i.ibb.co/j9RsJNsR/4.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
     { id: 5, src: 'https://i.ibb.co/6JRkjfTd/6.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
