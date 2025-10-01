@@ -20,15 +20,15 @@ const Gallery: React.FC = () => {
 
   const photos = [
     { id: 1, src: 'https://i.ibb.co/ns3t1Nzv/1.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
-    { id: 2, src: 'img/gallery/2.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
-    { id: 3, src: 'img/gallery/3.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
-    { id: 4, src: 'img/gallery/4.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
-    { id: 5, src: 'img/gallery/5.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
-    { id: 6, src: 'img/gallery/6.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
-    { id: 7, src: 'img/gallery/13.jpeg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
-    { id: 8, src: 'img/gallery/8.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
-    { id: 9, src: 'img/gallery/9.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
-    { id: 10, src: 'img/gallery/10.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [''], location: '' }
+    { id: 2, src: 'https://i.ibb.co/NM0SnLL/2.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
+    { id: 3, src: 'https://i.ibb.co/5xkshWtw/3ef9ab61-6c4a-45d8-b3bd-1d9743aed39d.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
+    { id: 4, src: 'https://i.ibb.co/j9RsJNsR/4.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
+    { id: 5, src: 'https://i.ibb.co/6JRkjfTd/6.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
+    { id: 6, src: 'https://i.ibb.co/4ZhNV7PQ/DSC-8155.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
+    { id: 7, src: 'https://i.ibb.co/chqc7mGB/8.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
+    { id: 8, src: 'https://i.ibb.co/G35tn4Qw/13.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
+    { id: 9, src: 'https://i.ibb.co/QFJ9pqCC/Dis-Assembly.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [], location: '' },
+    { id: 10, src: 'https://i.ibb.co/8LZGQTKg/860d865d-e492-46bd-bf19-dd0dcbf99217.jpg', category: '', title: '', description: '', date: '', photographer: '', tags: [''], location: '' }
   ];
 
   const filteredPhotos = photos.filter(photo => {
