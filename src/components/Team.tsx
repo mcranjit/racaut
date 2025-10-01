@@ -9,7 +9,7 @@ const Team: React.FC = () => {
     {
       name: "Dr. Mani Prahaspathy",
       position: "Faculty Advisor",
-      image: "img/team/Mani Sir.jpeg",
+      image: "https://i.ibb.co/DHqznhxy/Mani-Sir.jpg",
       bio: "Faculty Advisor for the Rotaract Club of Anna University, Trichy, Dr. Mani Prahaspathy is a seasoned academic and mentor with extensive experience in guiding students toward holistic growth. With expertise in Information Technology, Organizational Leadership, and Community Service, Dr. Prahaspathy is committed to fostering leadership, innovation, and a spirit of service among students.",
       email: "#",
       linkedin: "#",
