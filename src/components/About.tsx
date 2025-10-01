@@ -140,19 +140,19 @@ const About: React.FC = () => {
         {/* 3 Logos with ReadMore */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10 text-center mb-12 md:mb-16">
           <div className="p-6 bg-white rounded-2xl shadow-md hover:shadow-lg transition duration-300">
-            <img src="/img/logo/sustain.jpg" alt="Innovation" className="mx-auto w-22 h-22 mb-4" />
+            <img src="https://i.ibb.co/zTpPy1RV/sustain.jpg" alt="Innovation" className="mx-auto w-22 h-22 mb-4" />
             <h3 className="text-xl font-bold text-gray-800 mb-2">Sustainable Development Goals</h3>
             <ReadMore text={`At the Rotaract Club of Anna University, we align our initiatives with the United Nations Sustainable Development Goals (SDGs) to create a lasting impact on society. Through community service, professional development, and international collaboration, we work towards promoting quality education, good health and well-being, gender equality, climate action, and sustainable communities. Our projects – from tree plantation drives and awareness campaigns to youth empowerment and innovation programs – are designed to inspire positive change and contribute to building a more inclusive, responsible, and sustainable world. Together, we strive to be a driving force for progress, echoing the spirit of Service Above Self. #team trailblazer`} />
           </div>
 
           <div className="p-6 bg-white rounded-2xl shadow-md hover:shadow-lg transition duration-300">
-            <img src="/img/logo/trailblazer.jpg" alt="Collaboration" className="mx-auto w-22 h-22 mb-4" />
+            <img src="https://i.ibb.co/xqLDqyk7/trailblazer.jpg" alt="Collaboration" className="mx-auto w-22 h-22 mb-4" />
             <h3 className="text-xl font-bold text-gray-800 mb-2">Team Trailblazer</h3>
             <ReadMore text={`The Rotaract Club of Anna University – Team Trailblazer for this Rotary year is driven by the vision to Lead, Serve, and Inspire. We believe in leading with purpose, serving with passion, and inspiring with action in every initiative we take up. Guided by the values of Rotary International, our club actively participates in district initiatives, DRR and District Governor projects, while also designing impactful community-based programs that address real needs. From professional development and youth empowerment to health, education, environmental sustainability, and social awareness, our projects are aligned with both local priorities and the United Nations Sustainable Development Goals (SDGs). With a strong commitment to service above self, Team Trailblazer strives to create lasting change through leadership, innovation, and teamwork—making this Rotary year one of impact, growth, and inspiration. #team trailblazer`} />
           </div>
 
           <div className="p-6 bg-white rounded-2xl shadow-md hover:shadow-lg transition duration-300">
-            <img src="/img/logo/university.jpg" alt="Excellence" className="mx-auto w-22 h-22 mb-4" />
+            <img src="https://i.ibb.co/5WwPXdCG/university.jpg" alt="Excellence" className="mx-auto w-22 h-22 mb-4" />
             <h3 className="text-xl font-bold text-gray-800 mb-2">Anna University</h3>
             <ReadMore text={`Anna University, BIT Campus, through the Rotaract Club of Anna University, focuses on nurturing students to become responsible leaders and active contributors to society. The club serves as a bridge between academics and real-world experiences, encouraging students to step beyond classrooms and explore opportunities for service, leadership, and innovation. By engaging in community development, professional growth, and cultural exchange, the Rotaract Club reflects Anna University's commitment to shaping well-rounded individuals. With impactful initiatives and projects inspired by the spirit of Service Above Self, the club aligns with global aspirations like the Sustainable Development Goals (SDGs), enabling students to connect learning with action and contribute meaningfully to society. #team trailblazer`} />
           </div>
@@ -170,7 +170,7 @@ const About: React.FC = () => {
            {/* Banner Image */}
             <div className="flex justify-center mb-8">
               <img
-                src="img/logo/banner2.jpg"  // put your image path here
+                src="https://i.ibb.co/bp7kJ8v/banner2.jpg"  // put your image path here
                 alt="Rotaract Banner"
                 className="w-full max-w-5xl rounded-lg "
               />
@@ -256,7 +256,7 @@ const About: React.FC = () => {
               </div>
               <div className="relative animate-fadeInRight animate-delay-400">
                 <img 
-                  src="img/gallery/team.jpg" 
+                  src="https://i.ibb.co/Wp5b1hB7/team.jpg" 
                   alt="Rotaract club activities"
                   className="rounded-2xl shadow-lg w-full h-64 md:h-80 object-cover hover:scale-105 transition-transform duration-500"
                 />
@@ -329,7 +329,7 @@ const About: React.FC = () => {
             {/* Image Side */}
             <div className="relative">
               <img 
-                src="img/gallery/club_install.jpg" 
+                src="https://i.ibb.co/SwfS7XTz/club-install.jpg" 
                 alt="Rotary Parent Club" 
                 className="rounded-2xl shadow-lg w-full h-64 md:h-80 object-cover hover:scale-105 transition-transform duration-500"
               />
