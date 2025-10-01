@@ -25,7 +25,7 @@ const Team: React.FC = () => {
     {
       name: "Alexander F",
       position: "Secretary",
-      image: "https://i.ibb.co/cKjSznJ2/alex.jpg",
+      image: "https://i.ibb.co/vCbmRdNF/1168d0d3-5f7c-4e8f-bdae-8625664afa32.jpg",
       bio: "Alexander F, a final-year Electrical and Electronics Engineering student at Anna University, Trichy, is the Secretary of the Rotaract Club. Known for his meticulous documentation and exceptional communication skills, he ensures seamless coordination and effective record-keeping, playing a pivotal role in the club's operations and success.",
       email: "secretary@rotaractau.org",
       linkedin: "#",
