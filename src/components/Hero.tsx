@@ -24,7 +24,7 @@ const Hero: React.FC<HeroProps> = ({ onJoinClick }) => {
       subtitle: "Creating Impact",
       description:
         "Develop essential leadership skills while making a meaningful difference in your community and beyond.",
-      image: "https://i.ibb.co/XfDNgPJP/First-Instagram-Post.jpg",
+      image: "https://i.ibb.co/5xkKvfJq/5e4579db-4d76-45c9-ba93-467af0b369cb.jpg",
       gradient: "from-purple-600 via-pink-600 to-red-600",
     },
     {
