@@ -1,12 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import {
-  ArrowRight,
-  Play,
-  Pause,
-  Volume2,
-  VolumeX,
-  ChevronDown
-} from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { ArrowRight, ChevronDown } from 'lucide-react';
 
 interface HeroProps {
   onJoinClick: () => void;
@@ -14,12 +7,8 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ onJoinClick }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [isVideoPlaying, setIsVideoPlaying] = useState(true);
-  const [isMuted, setIsMuted] = useState(true);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isVisible, setIsVisible] = useState(false);
-
-  const videoRef = useRef<HTMLVideoElement>(null);
 
   const slides = [
     {
@@ -27,7 +16,7 @@ const Hero: React.FC<HeroProps> = ({ onJoinClick }) => {
       subtitle: "Transforming Communities",
       description:
         "Join the Rotaract Club of Anna University, Trichy - where young leaders come together to create positive change through service, fellowship, and leadership development.",
-      video: "https://app.weet.co/play/ea385280/create-video-tutorials-with-weet",
+      image: "https://i.ibb.co/BHGK6bRk/c343e82d-1438-4fb4-b2bf-ec62a078337a.jpg",
       gradient: "from-blue-600 via-blue-700 to-red-600",
     },
     {
@@ -35,7 +24,7 @@ const Hero: React.FC<HeroProps> = ({ onJoinClick }) => {
       subtitle: "Creating Impact",
       description:
         "Develop essential leadership skills while making a meaningful difference in your community and beyond.",
-      video: "https://app.weet.co/play/ea385280/create-video-tutorials-with-weet",
+      image: "https://i.ibb.co/XfDNgPJP/First-Instagram-Post.jpg",
       gradient: "from-purple-600 via-pink-600 to-red-600",
     },
     {
@@ -43,7 +32,7 @@ const Hero: React.FC<HeroProps> = ({ onJoinClick }) => {
       subtitle: "Local Action",
       description:
         "Connect with Rotaractors worldwide while addressing local community needs and challenges.",
-      video: "https://app.weet.co/play/ea385280/create-video-tutorials-with-weet",
+      image: "https://i.ibb.co/Q7YpgxHY/2cad6221-9680-4cee-acd2-bd983be98101.jpg",
       gradient: "from-green-600 via-teal-600 to-blue-600",
     }
   ];
@@ -67,27 +56,12 @@ const Hero: React.FC<HeroProps> = ({ onJoinClick }) => {
     return () => window.removeEventListener('mousemove', handleMouseMove);
   }, []);
 
-  useEffect(() => {
-    if (videoRef.current) {
-      isVideoPlaying
-        ? videoRef.current.play().catch(() => {})
-        : videoRef.current.pause();
-    }
-  }, [isVideoPlaying]);
-
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.muted = isMuted;
-    }
-  }, [isMuted]);
-
-  // More intense 3D tilt with smooth transitions for a pro look
   const parallaxStyle = {
     transform: `perspective(1200px) rotateX(${-mousePosition.y * 20}deg) rotateY(${mousePosition.x * 20}deg) translateZ(50px)`,
     transition: 'transform 0.15s ease-out',
   };
 
-  const videoContainerStyle = {
+  const imageContainerStyle = {
     transform: `perspective(1000px) scale3d(${isVisible ? 1 : 0.95},${isVisible ? 1 : 0.95},1) rotateX(${-mousePosition.y * 7}deg) rotateY(${mousePosition.x * 7}deg)`,
     transition: 'transform 0.35s ease',
     transformStyle: 'preserve-3d' as const,
@@ -98,12 +72,10 @@ const Hero: React.FC<HeroProps> = ({ onJoinClick }) => {
       className="relative min-h-screen overflow-hidden px-4 md:px-8 flex items-center justify-center"
       style={{ perspective: '1400px' }}
     >
-      {/* Gradient + Particles with z-depth */}
+      {/* Gradient + Particles */}
       <div className="absolute inset-0 z-0" style={{ transformStyle: 'preserve-3d' }}>
         <div
-          className={`absolute inset-0 bg-gradient-to-br ${
-            slides[currentSlide].gradient
-          } transition-all duration-2000`}
+          className={`absolute inset-0 bg-gradient-to-br ${slides[currentSlide].gradient} transition-all duration-2000`}
         />
         <div className="absolute inset-0 bg-black/40" />
         {[...Array(30)].map((_, i) => (
@@ -148,21 +120,13 @@ const Hero: React.FC<HeroProps> = ({ onJoinClick }) => {
               <span>Join Our Movement</span>
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </button>
-
-            <button
-              onClick={() => setIsVideoPlaying(!isVideoPlaying)}
-              className="group border-2 border-white/30 text-white backdrop-blur-md px-6 py-3 rounded-2xl font-semibold flex items-center justify-center space-x-2 transition-all hover:bg-white/10"
-            >
-              {isVideoPlaying ? <Pause size={20} /> : <Play size={20} />}
-              <span>Watch Our Story</span>
-            </button>
           </div>
         </div>
 
-        {/* Right Video with 3D scale and rotation */}
+        {/* Right Image with 3D scale and rotation */}
         <div
           className={`relative ${isVisible ? 'animate-fadeInRight' : 'opacity-0'}`}
-          style={videoContainerStyle}
+          style={imageContainerStyle}
         >
           <div
             className="bg-white/10 backdrop-blur-lg rounded-3xl p-4 md:p-8 border border-white/20 shadow-2xl hover-lift"
@@ -172,23 +136,11 @@ const Hero: React.FC<HeroProps> = ({ onJoinClick }) => {
               className="relative rounded-2xl overflow-hidden mb-6 group aspect-video w-full"
               style={{ transformStyle: 'preserve-3d' }}
             >
-              <video
-                ref={videoRef}
-                src={slides[currentSlide].video}
+              <img
+                src={slides[currentSlide].image}
+                alt={slides[currentSlide].title}
                 className="w-full h-full object-cover rounded-2xl transition-transform duration-700 group-hover:scale-110 will-change-transform"
-                muted={isMuted}
-                loop
-                playsInline
-                autoPlay
               />
-              <div className="absolute bottom-4 right-4 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <button
-                  onClick={() => setIsMuted(!isMuted)}
-                  className="bg-black/50 backdrop-blur-md text-white p-2 rounded-full hover:bg-black/70 transition-all hover:scale-110"
-                >
-                  {isMuted ? <VolumeX size={16} /> : <Volume2 size={16} />}
-                </button>
-              </div>
             </div>
 
             {/* Stats with subtle hover and shadow */}
